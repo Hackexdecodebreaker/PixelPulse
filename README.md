@@ -42,7 +42,7 @@ GEMINI_API_KEY=your-gemini-api-key
 ### 4. **Running the Bot**
 Launch the bot locally:
 ```bash
-python bot.py
+python main.py
 ```
 
 ---
@@ -82,8 +82,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ## 📫 **Contact**
 Have questions or suggestions? Reach out via:
 - **Email:** fkoomson@example.com
-- **Telegram:** [YourBotHandle](https://t.me/Xcyberex001bot)
+- **Telegram:** [](https://t.me/Xcyberex001bot)
 
----
 
-If you need any further tweaks or additions, feel free to let me know! 🚀
