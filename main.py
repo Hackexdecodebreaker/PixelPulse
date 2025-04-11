@@ -7,7 +7,7 @@ import markdown
 
 
 
-TOKEN="Telegram Bot Token"
+
 bot=telepot.Bot(TELEGRAM_BOT_TOKEN)
 
 
