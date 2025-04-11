@@ -7,8 +7,8 @@ import markdown
 
 
 
-TOKEN="8068999304:AAFpatNNP8hFNjcJmpT0chnkF4O2BzlXjuM"
-bot=telepot.Bot(TOKEN)
+TOKEN="Telegram Bot Token"
+bot=telepot.Bot(TELEGRAM_BOT_TOKEN)
 
 
 
@@ -33,14 +33,8 @@ def handle(msg):
 
 
 def operation(cmd):
-    #My GOOGLE AI STUDIO API KEY
-    api=[65, 73, 122, 97, 83, 121, 67, 119, 115, 120, 74, 65, 57, 70, 108, 104, 102, 120, 66, 84, 113, 56, 111, 122, 112, 49, 67, 120, 98, 51, 86, 116, 112, 48, 95, 68, 108, 74, 52]
-    GOOGLE=[]
-    for i in api:
-        GOOGLE.append(chr(i))
-
-
-    GOOGLE_API_KEY=''.join(GOOGLE)
+   
+    GOOGLE_API_KEY= GOOGLE_API_KEY
 
     is_retriable=lambda e:(isinstance(e,genai.errors.APIError) and e.code in {429,503})
     genai.models.Models.generate_content=retry.Retry(predicate=is_retriable)(genai.models.Models.generate_content)
