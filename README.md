@@ -23,8 +23,8 @@ Before deploying the bot, ensure you have the following:
 ### 2. **Installation**
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Hackexdecodebreaker/Xicovic.git
-    cd Xicovic
+    git clone https://github.com/Hackexdecodebreaker/PixelPulse.git
+    cd PixelPulse
     ```
 2. Install the required Python packages:
     ```bash
@@ -82,6 +82,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ## 📫 **Contact**
 Have questions or suggestions? Reach out via:
 - **Email:** fkoomson@example.com
-- **Telegram:** [](https://t.me/Xcyberex001bot)
+- 
 
 
